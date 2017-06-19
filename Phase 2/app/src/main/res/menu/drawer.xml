@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/favourites"
+            android:checked="false"
+            android:icon="@drawable/favourites"
+            android:title="Favourites" />
+
+        <item
+            android:id="@+id/offline_articles"
+            android:checked="false"
+            android:icon="@drawable/offline_article"
+            android:title="Offline Articles" />
+
+        <item
+            android:id="@+id/settings"
+            android:checked="false"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/upcoming_events"
+            android:checked="false"
+            android:icon="@drawable/upcoming_events"
+            android:title="Upcoming Events" />
+
+
+        <item
+            android:id="@+id/ask_a_question"
+            android:checked="false"
+            android:icon="@drawable/ask_a_question"
+            android:title="Ask A question" />
+        <item
+            android:id="@+id/share_us_anything"
+            android:checked="false"
+            android:icon="@drawable/share_us_anything"
+            android:title="Share Us Anything" />
+        <item
+            android:id="@+id/contact_us"
+            android:checked="false"
+            android:icon="@drawable/contact_us"
+            android:title="Contact us" />
+        <item
+            android:id="@+id/log_in"
+            android:checked="false"
+            android:icon="@drawable/log_in"
+            android:title="Log In" />
+
+    </group>
+
+</menu>
