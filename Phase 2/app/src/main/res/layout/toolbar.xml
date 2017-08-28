@@ -1,0 +1,39 @@
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Monday Morning"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/toolbar_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="The Official Media Body Of NIT Rourkela"
+                android:textStyle="italic"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+
+

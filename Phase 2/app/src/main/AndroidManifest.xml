@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.mondaymorning">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".favourites"
+            android:label="Favourites"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ask_a_question"
+            android:label="Ask A Question"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".contact_us"
+            android:label="Contact Us"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".log_in"
+            android:label="Log In"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".offline_articles"
+            android:label="Offline Articles"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".settings"
+            android:label="Settings"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".share_us_anything"
+            android:label="Share Us Anything"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".upcoming_events"
+            android:label="Upcoming Events"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>
